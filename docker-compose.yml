@@ -12,7 +12,7 @@ services:
     environment:
       DB_URL: mongodb://db/vidly
   db:
-    image: mongo:4.1-xenial
+    image: mongo:4.0.28-xenial
     ports:
       - 27017:27017
     volumes:
